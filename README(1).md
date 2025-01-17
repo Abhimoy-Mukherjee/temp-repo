@@ -45,7 +45,7 @@ The application will be accessible at [http://localhost:3000](http://localhost:3
 ```bash
 infisical login
 ```
-contact one of the maintainers to obtain the infisical credentials.
+**Note** : contact one of the maintainers to obtain the infisical credentials.
 
 ### **5. Use infisical run -- as a Prefix for Commands** 
 When running commands, prepend them with `infisical run --`.
