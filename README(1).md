@@ -32,37 +32,21 @@ pnpm install
 bun install
 ```
 
-### **3. Set Up Firebase Configuration**  
-To connect the project to Firebase, you need a `.env.local` file in the root directory.  
-
-#### Create the `.env.local` file:
-```plaintext
-NEXT_PUBLIC_FIREBASE_API_KEY=xxx
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=xxx
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=xxx
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=xxx
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=xxx
-NEXT_PUBLIC_FIREBASE_APP_ID=xxx
-```
-
-**Note**: Replace the `xxx` values with the Firebase configuration keys.  
-Contact one of the maintainers to obtain the Firebase config details.  
-
-### **4. Install Infisical CLI**  
+### **3. Install Infisical CLI**  
 Follow the instructions in the [Infisical CLI documentation](https://infisical.com/docs/cli/overview)
  to install the CLI on your machine. 
 
 
 The application will be accessible at [http://localhost:3000](http://localhost:3000).  
 
-### **5. Login and Initialize Infisical** 
+### **4. Login and Initialize Infisical** 
 1. Navigate to the repository in your terminal.
 2. Run the following command to log in:
 ```bash
 infisical login
 ```
 
-### **6. Use infisical run -- as a Prefix for Commands** 
+### **5. Use infisical run -- as a Prefix for Commands** 
 When running commands, prepend them with `infisical run --`.
 
 For example, instead of running:
