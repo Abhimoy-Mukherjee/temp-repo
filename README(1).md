@@ -58,7 +58,7 @@ Use:
 ```bash
 infisical run -- npm run dev
 ```
-### Tip: To simplify this process, you can create aliases for commonly used commands.** 
+#### Tip: To simplify this process, you can create aliases for commonly used commands.** 
 ---
 
 ## **Contributing**  
